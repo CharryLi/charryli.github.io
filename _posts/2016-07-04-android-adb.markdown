@@ -11,7 +11,7 @@ tags:
     - ADB
 ---
 
-### 那些必须知道的ADB命令
+###  那些必须知道的ADB命令
 > PS: ADB的全称是Android Debug Bridge
 
 熟练掌握ADB命令可以提高开发效率,以下记录一些比较常用的命令:
@@ -56,7 +56,7 @@ eg. `adb push foo.txt /sdcard/foo.txt`
 查看手机CPU,可以看到手机架构(eg.ARMv7) 和几核处理器
 可以帮助我们选择so库,排查手机cpu架构相关的问题  
   
-### 不太常用的命令  
+###  不太常用的命令  
 * `adb shell df`  
 获取手机磁盘空间
 * `adb shell getprop ro.build.version.release`  
@@ -70,7 +70,7 @@ Graphics State
 * `adb help`  
 进入adb帮助界面
 
-### 资料
+###  资料
 1. [adb-官方资料](https://developer.android.com/intl/zh-cn/tools/help/adb.html)
 
 2. [ADB-Shell](https://ar-g.github.io/ADB-Shell-Part-1/)
